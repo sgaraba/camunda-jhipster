@@ -210,10 +210,9 @@ jhipster:
 # ===================================================================
 
 # application:
+
 camunda:
   bpm:
-    authorization:
-      enabled: true
     webapp:
       index-redirect-enabled: false
     admin-user:
