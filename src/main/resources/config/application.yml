@@ -210,3 +210,18 @@ jhipster:
 # ===================================================================
 
 # application:
+camunda:
+  bpm:
+    authorization:
+      enabled: true
+    webapp:
+      index-redirect-enabled: false
+    admin-user:
+     id: admin
+     password: admin
+    history-level: full
+    process-engine-name: default
+    job-execution:
+      lock-time-in-millis: 1200000
+      max-pool-size: 10
+
